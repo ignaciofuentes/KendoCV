@@ -3,24 +3,146 @@ body
     font: Arial, sans-serif;
 }
 
-.buttonArea,
-.footerText,
-#geoLocationContainer,
-#helloWorldInput,
-#helloWorldText
-{
-    text-align: center;
+
+#resumeTop{
+    background-color: #6B6B6B;
+    padding:10px;
+    height:90px;
 }
 
-#txtName
-{
-    border: 1px solid #AAA;
-    border-radius: 15px;
-    position:static;
-    margin-left: 1em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
-    background:white;
-    color: black;
-    padding: 7px;
+#image {
+    border: 2px solid #fff;
+    float:left;
 }
+
+#fullName{
+    color:white;
+    float:left;
+    margin:10px 0 0 24px;
+    font-size:18px;
+    font-weight: bold;
+    
+}
+#company{
+    color:white;
+    float:left;
+    margin-top:2px;
+    margin-left:24px;
+    
+}
+.left{
+    float:left;
+    margin-top:2px;
+    margin-left:24px;
+    
+}
+
+#buttonGroup{
+    clear:both;
+    float:left;
+    margin:20px 0px 0px 40px;
+}
+
+
+#profileList h3.title
+{
+    float: left;
+    font-size: 1em;
+    line-height: 1.4em;
+    margin: .3em 1em 0 0;
+    width: 70%;
+}
+#profileList p.company{
+    color: #007D99;
+    float: left;
+    font-size: .7em;
+    line-height: 1em;
+    margin: 0 0 0 0;
+    width: 70%;
+}
+#profileList h3.timeframe
+{
+    color: #b2b2b2;
+    float: left;
+    font-size: 0.6em;
+    line-height: 1.4em;
+    margin: .3em 1em 0 0;
+    width: 70%;
+}
+
+#profileList p.moreinfo{
+    float: left;
+    font-size: .7em;
+    line-height: 1.3em;
+    margin: 5px 8px 10px 0;
+    width: 100%;
+    text-align: justify;
+}
+
+#begin-button {
+        display: block;
+        text-align: center;
+        margin: 6.6em 1.2em 0;
+        font-size: 1.2em;
+        line-height: 3em;
+}
+.km-ios .km-view .km-navbar {
+    background-color: rgb(0, 96, 117);
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0, rgba(0,0,0,.2)),color-stop(.5, rgba(0,0,0,.35)),color-stop(.5, rgba(0,0,0,.45)),color-stop(1, rgba(0,0,0,.4)));
+    background-image: -moz-linear-gradient(50% 0,50% 100%,rgba(0,0,0,.2),rgba(0,0,0,.35) 50%,rgba(0,0,0,.45) 50%,rgba(0,0,0,.4));
+    background-repeat: repeat;
+    background-position: 0 0;
+}
+.km-ios .km-view .km-content .km-button.km-state-active {
+    background-color: rgb(0, 96, 117);
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0, rgba(0,0,0,.2)),color-stop(.5, rgba(0,0,0,.35)),color-stop(.5, rgba(0,0,0,.45)),color-stop(1, rgba(0,0,0,.4)));
+    background-image: -moz-linear-gradient(50% 0,50% 100%,rgba(0,0,0,.2),rgba(0,0,0,.35) 50%,rgba(0,0,0,.45) 50%,rgba(0,0,0,.4));
+    background-repeat: repeat;
+    background-position: 0 0;
+}
+.km-ios .km-view .km-content .km-button {
+    background-color: rgb(0, 96, 117);
+}
+.km-ios .km-view .km-content {
+    background-image: none;
+    background-image: none;
+    background-repeat: repeat;
+    background-position: 0% 0%;
+    background-color: rgb(196, 204, 213);
+}
+.km-ios .km-view .km-content {
+    background-image: none;
+    background-image: none;
+    background-repeat: repeat;
+    background-position: 0% 0%;
+    background-color: rgb(204, 204, 204);
+}
+.km-ios .km-view .km-navbar .km-button {
+    background-color: rgb(0, 96, 117);
+}
+
+.km-ios .km-view .km-navbar {
+    background-color: rgb(0, 108, 133);
+    background-image: none;
+    background-image: none;
+    background-repeat: repeat;
+    background-position: 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
